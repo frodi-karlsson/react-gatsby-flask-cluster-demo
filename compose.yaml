@@ -1,0 +1,23 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./website/
+      dockerfile: Dockerfile
+    image: frontend:latest
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./website:/app/src
+    ports:
+      - target: 80
+        published: 80
+        protocol: tcp
+        mode: ingress
+  backend:
+    build:
+      context: ./stock-server/
+    image: backend:latest
+    ports:
+      - 5000:5000
+

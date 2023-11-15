@@ -1,0 +1,10 @@
+# pyproject
+stock_simulator_backend.egg-info
+build
+dist
+# venv
+stock-server-demo-backend
+# general python
+__pycache__
+# secrets
+.env

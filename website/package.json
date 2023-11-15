@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "stock-simulator-demo",
-  "author": "Frodi Karlsson",
+  "author": "frodi-karlsson<frodikarlsson@gmail.com>",
   "keywords": [
     "gatsby"
   ],
@@ -16,15 +16,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "axios-retry": "^3.9.0",
     "gatsby": "^5.12.4",
-    "gatsby-plugin-image": "^3.12.3",
-    "gatsby-plugin-sass": "^6.12.3",
-    "gatsby-plugin-sharp": "^5.12.3",
-    "gatsby-source-filesystem": "^5.12.1",
-    "gatsby-transformer-sharp": "^5.12.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.69.5"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.3.3",
